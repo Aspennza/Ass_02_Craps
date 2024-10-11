@@ -55,6 +55,7 @@ public class Main
                     }
                 }while(dieSum != point && dieSum != 7);
             }
+
             System.out.print("\nWould you like to play again? Enter Y or press any other key to quit: ");
             playAgain = in.nextLine();
         }while(playAgain.equalsIgnoreCase("Y"));
